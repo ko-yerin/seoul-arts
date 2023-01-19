@@ -46,6 +46,7 @@ h6 {
   font-family: "Play", sans-serif;
 }
 
+
 h1 {
   font-size: 70px;
 }
@@ -71,8 +72,10 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  /*font-family: "Josefin Sans", sans-serif;*/
+  font-family: 'Do Hyeon', sans-serif;
+
   color: #adadad;
   font-weight: 400;
   line-height: 26px;
@@ -102,6 +105,7 @@ ol {
   padding: 0;
   margin: 0;
 }
+
 
 /*---------------------
   Helper CSS
@@ -785,6 +789,10 @@ ol {
 .latest {
   background: #100028;
   padding-bottom: 80px;
+}
+
+.card-height{
+  height: 380px;
 }
 
 .blog__item.latest__item {
