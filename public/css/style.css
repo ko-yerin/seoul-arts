@@ -32,6 +32,7 @@ body {
   height: 100%;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -139,6 +140,21 @@ ol {
   width: 70px;
   background: #00bfe7;
   content: "";
+}
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+}
+
+.scroll-btn {
+  font-weight: bold;
+  background-color: dodgerblue;
+  color: white;
 }
 
 .set-bg {
