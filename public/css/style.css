@@ -1060,6 +1060,10 @@ ol {
   /*padding-bottom: 150px;*/
 }
 
+.joonsu-picture {
+  background: round;
+}
+
 .about__pic__item {
   height: 235px;
   margin-right: -10px;
