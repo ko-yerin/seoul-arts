@@ -71,6 +71,10 @@ h6 {
   font-size: 16px;
 }
 
+span{
+  font-family: 'Do Hyeon', sans-serif;
+  color: #adadad;
+}
 p {
   font-size: 19px;
   /*font-family: "Josefin Sans", sans-serif;*/
