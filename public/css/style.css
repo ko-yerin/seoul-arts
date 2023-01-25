@@ -1061,7 +1061,7 @@ ol {
 }
 
 .joonsu-picture {
-  background: round;
+  background-position-y: center;
 }
 
 .about__pic__item {
