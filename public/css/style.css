@@ -420,6 +420,13 @@ ol {
   transition: all, 0.3s;
 }
 
+.menubar-download {
+  font-weight: bold;
+  border-style: ridge;
+  border-radius: 10px;
+  /*background-color: black;*/
+}
+
 .header__nav__social {
   display: inline-block;
   position: relative;
