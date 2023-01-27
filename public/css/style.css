@@ -166,9 +166,19 @@ ol {
 }
 
 .set-bg {
+  height:100%;
+  width:auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
+
+@media (max-width: 768px){
+  .set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
 }
 
 .spad {
@@ -426,7 +436,7 @@ ol {
   font-weight: bold;
   border-style: ridge;
   border-radius: 10px;
-  /*background-color: black;*/
+  background-color: rgba(0,0,0,0.3);
 }
 
 .header__nav__social {
