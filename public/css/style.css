@@ -190,7 +190,9 @@ ol {
 }
 
 /* buttons */
+/*에이든 반투명 추가*/
 .primary-btn {
+  background-color:rgba(0, 0, 0, 0.3);
   display: inline-block;
   font-size: 40px;
   font-family: "Play", sans-serif;
