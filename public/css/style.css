@@ -171,6 +171,14 @@ ol {
   background-position: top center;
 }
 
+/*에이든 커스터마이징 - 사진조정*/
+.set-bg-left{
+  background-position: right 44% bottom 45%;
+}
+.set-bg-center{
+  background-position: top left;
+}
+
 /*@media (max-width: 768px){*/
 /*  .set-bg {*/
 /*    background-repeat: no-repeat;*/
