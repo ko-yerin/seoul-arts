@@ -115,6 +115,10 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.modal-backdrop{
+  position: static;
+  /*z-index: 0;*/
+}
 .section-title {
   margin-bottom: 50px;
 }
