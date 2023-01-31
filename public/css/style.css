@@ -171,6 +171,22 @@ ol {
   background-position: top center;
 }
 
+/*에이든 커스터마이징 - 사진조정*/
+.set-bg-left{
+  background-position: right 44% bottom 45%;
+}
+.set-bg-center{
+  background-position: top left;
+}
+
+/*@media (max-width: 768px){*/
+/*  .set-bg {*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: top center;*/
+/*  }*/
+/*}*/
+
 .spad {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -190,7 +206,9 @@ ol {
 }
 
 /* buttons */
+/*에이든 반투명 추가*/
 .primary-btn {
+  background-color:rgba(0, 0, 0, 0.3);
   display: inline-block;
   font-size: 40px;
   font-family: "Play", sans-serif;
@@ -418,6 +436,13 @@ ol {
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
+}
+
+.menubar-download {
+  font-weight: bold;
+  border-style: ridge;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.3);
 }
 
 .header__nav__social {
