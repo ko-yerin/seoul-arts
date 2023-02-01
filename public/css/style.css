@@ -586,6 +586,7 @@ ol {
 
 .work__gallery {
   margin-right: -10px;
+
 }
 
 .work__item {
@@ -609,12 +610,9 @@ ol {
 .work__item:hover .work__item__hover {
   bottom: 0;
 }
-.work__item.large__item {
-  height: 633px !important;
-  width: calc(33.33% - 10px);
-}
+
 .work__item.wide__item {
-  width: calc(33.33% - 10px);
+  width: calc(100% - 10px);
   height: 311px !important;
 }
 .work__item .play-btn {
@@ -2215,7 +2213,6 @@ ol {
   }
 
   .work__item {
-    width: 100%;
     margin-right: 0;
   }
 
