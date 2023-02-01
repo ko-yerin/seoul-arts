@@ -867,6 +867,10 @@ ol {
   background-size: cover;
 }
 
+.font-size{
+  font-size: 16px;
+}
+
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
   max-width: 100%;
 }
