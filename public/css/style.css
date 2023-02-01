@@ -115,6 +115,16 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.slicknav_btn{
+  background: none;
+}
+.table td, .table th{
+  padding: 0;
+  word-break:break-all;
+}
+.table{
+  color:white;
+}
 .modal-backdrop{
   position: static;
   /*z-index: 0;*/
@@ -2005,7 +2015,7 @@ ol {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
+    /*background: #00bfe7;*/
   }
 
   .header .container {
@@ -2127,7 +2137,6 @@ ol {
     position: absolute;
     right: 10px;
     top: 26px;
-    background: #00bfe7;
   }
 
   .header .container {
