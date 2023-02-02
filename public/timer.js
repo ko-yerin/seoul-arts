@@ -1,7 +1,7 @@
 function makeTimer() {
-
+  // let endTime = new Date('2 February 2023 19:25:00 GMT+09:00')
   let endTime = new Date('4 February 2023 13:00:00 GMT+09:00')
-  // let endTime = new Date('4 February 2023 19:00:00 GMT+09:00')
+
   //GMT 09:00한국 기준
   // let endTime = new Date('2 February 2023 08:43:00 GMT+01:00')
 
@@ -18,14 +18,15 @@ function makeTimer() {
   let seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)))
   if (days == 0 && hours == 0 && minutes == 0 && seconds == 0) {
 
-    alert('🚀 다운로드 가능합니다!!!')
+    alert('🚀 Downloading available!!!')
     //날짜도 여기로
   }
   else if (days < 0) {
-    $('#days').html('<p>다운로드 가능</p>')
-    $('#hours').html('<p>다운로드 가능</p>')
-    $('#minutes').html('<p>다운로드 가능</p>')
-    $('#seconds').html('<p>다운로드 가능</p>')
+    $('#Downloaoding').html('<h3>Downloaoding !</h3>')
+    $('.days').html('')
+    $('.hours').html('')
+    $('.minutes').html('')
+    $('.seconds').html()
   }
   else {
       if (hours < '10') {
