@@ -26,7 +26,7 @@ function makeTimer() {
   else if (days < 0) {
     clearInterval(x);
     console.log('done?')
-    $('#Downloaoding').html('<h3>Downloaoding !</h3>')
+    $('#Downloaoding').html('<h3>Start Download</h3>')
     $('.days').html('')
     $('.hours').html('')
     $('.minutes').html('')
